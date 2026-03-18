@@ -1,0 +1,1498 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.interview:Smart-Interview-Preparation-Platform >---------
+[INFO] Building Smart Interview Platform 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.4:run (default-cli) > test-compile @ Smart-Interview-Preparation-Platform >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Smart-Interview-Preparation-Platform ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ Smart-Interview-Preparation-Platform ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Smart-Interview-Preparation-Platform ---
+[INFO] skip non existing resourceDirectory C:\dddd\Smart Interview Preparation Platform\Smart-Interview-Preparation-Platform\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ Smart-Interview-Preparation-Platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 1 source file with javac [debug release 21] to target\test-classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] 
+[INFO] <<< spring-boot:3.2.4:run (default-cli) < test-compile @ Smart-Interview-Preparation-Platform <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.4:run (default-cli) @ Smart-Interview-Preparation-Platform ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.2.4/spring-boot-buildpack-platform-3.2.4.jar
+Progress (1): 0.9/272 kB
+Progress (1): 2.3/272 kB
+Progress (1): 3.6/272 kB
+Progress (1): 5.0/272 kB
+Progress (1): 6.4/272 kB
+Progress (1): 7.7/272 kB
+Progress (1): 9.1/272 kB
+Progress (1): 10/272 kB 
+Progress (1): 12/272 kB
+Progress (1): 13/272 kB
+Progress (1): 15/272 kB
+Progress (1): 16/272 kB
+Progress (1): 17/272 kB
+Progress (1): 19/272 kB
+Progress (1): 20/272 kB
+Progress (1): 21/272 kB
+Progress (1): 23/272 kB
+Progress (1): 24/272 kB
+Progress (1): 25/272 kB
+Progress (1): 26/272 kB
+Progress (1): 27/272 kB
+Progress (1): 29/272 kB
+Progress (1): 30/272 kB
+Progress (1): 31/272 kB
+Progress (1): 33/272 kB
+Progress (1): 34/272 kB
+Progress (1): 36/272 kB
+Progress (1): 37/272 kB
+Progress (1): 38/272 kB
+Progress (1): 40/272 kB
+Progress (1): 41/272 kB
+Progress (1): 42/272 kB
+Progress (1): 44/272 kB
+Progress (1): 45/272 kB
+Progress (1): 46/272 kB
+Progress (1): 48/272 kB
+Progress (1): 49/272 kB
+Progress (1): 51/272 kB
+Progress (1): 52/272 kB
+Progress (1): 53/272 kB
+Progress (1): 55/272 kB
+Progress (1): 59/272 kB
+Progress (1): 63/272 kB
+Progress (1): 67/272 kB
+Progress (1): 72/272 kB
+Progress (1): 76/272 kB
+Progress (1): 80/272 kB
+Progress (1): 84/272 kB
+Progress (1): 89/272 kB
+Progress (1): 93/272 kB
+Progress (1): 97/272 kB
+Progress (1): 101/272 kB
+Progress (1): 105/272 kB
+Progress (1): 110/272 kB
+Progress (1): 114/272 kB
+Progress (1): 118/272 kB
+Progress (1): 122/272 kB
+Progress (1): 127/272 kB
+Progress (1): 131/272 kB
+Progress (1): 135/272 kB
+Progress (1): 139/272 kB
+Progress (1): 144/272 kB
+Progress (1): 148/272 kB
+Progress (1): 152/272 kB
+Progress (1): 156/272 kB
+Progress (1): 160/272 kB
+Progress (1): 164/272 kB
+Progress (1): 168/272 kB
+Progress (1): 173/272 kB
+Progress (1): 177/272 kB
+Progress (1): 181/272 kB
+Progress (1): 185/272 kB
+Progress (1): 189/272 kB
+Progress (1): 194/272 kB
+Progress (1): 198/272 kB
+Progress (1): 202/272 kB
+Progress (1): 206/272 kB
+Progress (1): 211/272 kB
+Progress (1): 215/272 kB
+Progress (1): 219/272 kB
+Progress (1): 223/272 kB
+Progress (1): 240/272 kB
+Progress (1): 256/272 kB
+Progress (1): 272 kB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.2.4/spring-boot-buildpack-platform-3.2.4.jar (272 kB at 110 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.2/jackson-module-parameter-names-2.14.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
+Progress (1): 7.7/77 kB
+Progress (1): 16/77 kB 
+Progress (1): 32/77 kB
+Progress (2): 32/77 kB | 0.9/459 kB
+Progress (2): 32/77 kB | 2.3/459 kB
+Progress (2): 32/77 kB | 3.4/459 kB
+Progress (2): 32/77 kB | 4.7/459 kB
+Progress (3): 32/77 kB | 4.7/459 kB | 0/1.0 MB
+Progress (3): 32/77 kB | 4.7/459 kB | 0/1.0 MB
+Progress (3): 32/77 kB | 4.7/459 kB | 0/1.0 MB
+Progress (3): 32/77 kB | 4.7/459 kB | 0/1.0 MB
+Progress (4): 32/77 kB | 4.7/459 kB | 0/1.0 MB | 0.9/9.5 kB
+Progress (4): 32/77 kB | 4.7/459 kB | 0/1.0 MB | 2.3/9.5 kB
+Progress (4): 32/77 kB | 4.7/459 kB | 0/1.0 MB | 3.6/9.5 kB
+Progress (4): 32/77 kB | 4.7/459 kB | 0/1.0 MB | 5.0/9.5 kB
+Progress (4): 32/77 kB | 4.7/459 kB | 0/1.0 MB | 6.4/9.5 kB
+Progress (4): 32/77 kB | 4.7/459 kB | 0/1.0 MB | 7.4/9.5 kB
+Progress (4): 32/77 kB | 4.7/459 kB | 0/1.0 MB | 8.8/9.5 kB
+Progress (4): 32/77 kB | 4.7/459 kB | 0/1.0 MB | 9.5 kB    
+Progress (4): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 9.5 kB
+                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.2/jackson-module-parameter-names-2.14.2.jar (9.5 kB at 49 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.2.3/httpclient5-5.2.3.jar
+Progress (4): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB
+Progress (4): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB
+Progress (4): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB
+Progress (4): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB
+Progress (4): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 0.9/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 2.3/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 2.3/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 3.6/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 48/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 65/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 65/77 kB | 4.7/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 65/77 kB | 6.1/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 65/77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 65/77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 65/77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB   
+Progress (5): 77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (5): 77 kB | 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+                                                                     
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.14.2/jackson-annotations-2.14.2.jar (77 kB at 149 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar
+Progress (4): 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (4): 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (4): 7.5/459 kB | 0.1/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 5.0/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 6.4/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 7.7/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 9.1/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 10/843 kB 
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 12/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 12/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 12/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 12/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 12/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 12/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 14/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 15/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 16/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 18/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 19/843 kB
+Progress (4): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 21/843 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 21/843 kB | 7.7/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 21/843 kB | 16/855 kB 
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 22/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 23/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 23/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 23/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 23/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 23/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 23/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 23/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 25/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 26/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 26/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 16/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 32/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 48/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 65/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 65/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 65/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 65/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 65/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 65/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 65/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 65/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 81/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 98/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 98/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 114/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 114/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 130/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 130/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 130/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 130/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 147/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 147/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 163/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 179/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 196/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 196/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 196/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 196/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 196/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 212/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 212/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 229/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 27/843 kB | 229/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 29/843 kB | 229/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 29/843 kB | 245/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 29/843 kB | 261/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 30/843 kB | 261/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 30/843 kB | 278/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 30/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 31/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 33/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 34/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 36/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 37/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 38/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 40/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 41/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 41/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 41/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 42/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 44/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 44/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 44/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 48/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 294/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 311/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 327/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 343/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 360/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 360/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 360/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 360/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 360/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 376/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 376/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 376/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 392/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 392/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 392/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 392/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 392/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 392/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 392/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 409/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 425/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 442/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 458/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 458/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 458/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 458/855 kB
+Progress (5): 7.5/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 8.8/459 kB | 0.2/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 8.8/459 kB | 0.3/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 8.8/459 kB | 0.3/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 10/459 kB | 0.3/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB 
+Progress (5): 12/459 kB | 0.3/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 13/459 kB | 0.3/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 14/459 kB | 0.3/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 16/459 kB | 0.3/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.1/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 52/843 kB | 474/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 52/843 kB | 491/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 52/843 kB | 507/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 52/843 kB | 507/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 56/843 kB | 507/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 61/843 kB | 507/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 65/843 kB | 507/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 69/843 kB | 507/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 73/843 kB | 507/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 78/843 kB | 507/855 kB
+Progress (5): 17/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 78/843 kB | 524/855 kB
+Progress (5): 18/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 78/843 kB | 524/855 kB
+Progress (5): 20/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 78/843 kB | 524/855 kB
+Progress (5): 20/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 20/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 20/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 20/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 21/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 23/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 24/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 25/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 27/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 28/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 29/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 31/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 32/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 32/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 33/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 33/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 35/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 36/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 38/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 39/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 524/855 kB
+Progress (5): 39/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 82/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 86/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 90/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 95/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 95/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 95/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 95/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 99/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 540/855 kB
+Progress (5): 40/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 556/855 kB
+Progress (5): 42/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 556/855 kB
+Progress (5): 42/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 43/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 44/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 46/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 47/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 47/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 47/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 49/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 50/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 51/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 53/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 54/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 55/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 55/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 103/843 kB | 573/855 kB
+Progress (5): 55/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 107/843 kB | 573/855 kB
+Progress (5): 55/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 107/843 kB | 573/855 kB
+Progress (5): 55/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 111/843 kB | 573/855 kB
+Progress (5): 55/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 116/843 kB | 573/855 kB
+Progress (5): 55/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 120/843 kB | 573/855 kB
+Progress (5): 55/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 120/843 kB | 573/855 kB
+Progress (5): 60/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 120/843 kB | 573/855 kB
+Progress (5): 64/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 120/843 kB | 573/855 kB
+Progress (5): 66/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 120/843 kB | 573/855 kB
+Progress (5): 66/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 120/843 kB | 589/855 kB
+Progress (5): 66/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 120/843 kB | 605/855 kB
+Progress (5): 66/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 124/843 kB | 605/855 kB
+Progress (5): 66/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 124/843 kB | 605/855 kB
+Progress (5): 66/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 128/843 kB | 605/855 kB
+Progress (5): 66/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 128/843 kB | 622/855 kB
+Progress (5): 70/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 128/843 kB | 622/855 kB
+Progress (5): 74/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 128/843 kB | 622/855 kB
+Progress (5): 78/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 128/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.3/1.0 MB | 0.2/1.6 MB | 128/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 128/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 133/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 137/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 141/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 143/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 148/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 152/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 82/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 87/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 91/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 95/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 95/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 95/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 95/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 99/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 104/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 156/843 kB | 622/855 kB
+Progress (5): 104/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 160/843 kB | 622/855 kB
+Progress (5): 104/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 108/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 108/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 112/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 116/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 121/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 123/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 622/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 165/843 kB | 638/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 169/843 kB | 638/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 173/843 kB | 638/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 177/843 kB | 638/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 181/843 kB | 638/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 186/843 kB | 638/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 190/843 kB | 638/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 190/843 kB | 638/855 kB
+Progress (5): 127/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 190/843 kB | 638/855 kB
+Progress (5): 131/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 190/843 kB | 638/855 kB
+Progress (5): 136/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 190/843 kB | 638/855 kB
+Progress (5): 140/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 190/843 kB | 638/855 kB
+Progress (5): 144/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 190/843 kB | 638/855 kB
+Progress (5): 144/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 190/843 kB | 638/855 kB
+Progress (5): 144/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 194/843 kB | 638/855 kB
+Progress (5): 147/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 194/843 kB | 638/855 kB
+Progress (5): 147/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 198/843 kB | 638/855 kB
+Progress (5): 147/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 203/843 kB | 638/855 kB
+Progress (5): 147/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 207/843 kB | 638/855 kB
+Progress (5): 147/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 211/843 kB | 638/855 kB
+Progress (5): 152/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 211/843 kB | 638/855 kB
+Progress (5): 156/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 211/843 kB | 638/855 kB
+Progress (5): 160/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 211/843 kB | 638/855 kB
+Progress (5): 160/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 211/843 kB | 638/855 kB
+Progress (5): 164/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 211/843 kB | 638/855 kB
+Progress (5): 164/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 227/843 kB | 638/855 kB
+Progress (5): 164/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 244/843 kB | 638/855 kB
+Progress (5): 168/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 244/843 kB | 638/855 kB
+Progress (5): 168/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 244/843 kB | 638/855 kB
+Progress (5): 172/459 kB | 0.4/1.0 MB | 0.2/1.6 MB | 244/843 kB | 638/855 kB
+Progress (5): 172/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 244/843 kB | 638/855 kB
+Progress (5): 177/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 244/843 kB | 638/855 kB
+Progress (5): 177/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 638/855 kB
+Progress (5): 181/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 638/855 kB
+Progress (5): 181/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 638/855 kB
+Progress (5): 181/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 655/855 kB
+Progress (5): 185/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 655/855 kB
+Progress (5): 189/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 655/855 kB
+Progress (5): 189/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 655/855 kB
+Progress (5): 189/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 671/855 kB
+Progress (5): 193/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 671/855 kB
+Progress (5): 198/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 260/843 kB | 671/855 kB
+Progress (5): 198/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 274/843 kB | 671/855 kB
+Progress (5): 198/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 202/459 kB | 0.5/1.0 MB | 0.2/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 202/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 202/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 206/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 210/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 215/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 215/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 215/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 215/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 219/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 277/843 kB | 671/855 kB
+Progress (5): 219/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 293/843 kB | 671/855 kB
+Progress (5): 219/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 671/855 kB
+Progress (5): 219/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 671/855 kB
+Progress (5): 235/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 671/855 kB
+Progress (5): 235/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 671/855 kB
+Progress (5): 235/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 671/855 kB
+Progress (5): 252/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 671/855 kB
+Progress (5): 252/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 687/855 kB
+Progress (5): 252/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 704/855 kB
+Progress (5): 252/459 kB | 0.5/1.0 MB | 0.3/1.6 MB | 309/843 kB | 720/855 kB
+Progress (5): 252/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 309/843 kB | 720/855 kB
+Progress (5): 252/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 309/843 kB | 737/855 kB
+Progress (5): 268/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 309/843 kB | 737/855 kB
+Progress (5): 268/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 309/843 kB | 737/855 kB
+Progress (5): 268/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 326/843 kB | 737/855 kB
+Progress (5): 268/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 326/843 kB | 737/855 kB
+Progress (5): 268/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 342/843 kB | 737/855 kB
+Progress (5): 284/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 342/843 kB | 737/855 kB
+Progress (5): 284/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 342/843 kB | 737/855 kB
+Progress (5): 295/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 342/843 kB | 737/855 kB
+Progress (5): 295/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 358/843 kB | 737/855 kB
+Progress (5): 295/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 375/843 kB | 737/855 kB
+Progress (5): 295/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 375/843 kB | 737/855 kB
+Progress (5): 295/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 375/843 kB | 737/855 kB
+Progress (5): 295/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 375/843 kB | 737/855 kB
+Progress (5): 295/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 375/843 kB | 753/855 kB
+Progress (5): 295/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 375/843 kB | 769/855 kB
+Progress (5): 311/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 375/843 kB | 769/855 kB
+Progress (5): 311/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 391/843 kB | 769/855 kB
+Progress (5): 311/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 406/843 kB | 769/855 kB
+Progress (5): 311/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 406/843 kB | 769/855 kB
+Progress (5): 328/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 406/843 kB | 769/855 kB
+Progress (5): 328/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 422/843 kB | 769/855 kB
+Progress (5): 328/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 422/843 kB | 769/855 kB
+Progress (5): 328/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 422/843 kB | 786/855 kB
+Progress (5): 344/459 kB | 0.6/1.0 MB | 0.3/1.6 MB | 422/843 kB | 786/855 kB
+Progress (5): 344/459 kB | 0.7/1.0 MB | 0.3/1.6 MB | 422/843 kB | 786/855 kB
+Progress (5): 344/459 kB | 0.7/1.0 MB | 0.3/1.6 MB | 422/843 kB | 802/855 kB
+Progress (5): 344/459 kB | 0.7/1.0 MB | 0.3/1.6 MB | 422/843 kB | 818/855 kB
+Progress (5): 360/459 kB | 0.7/1.0 MB | 0.3/1.6 MB | 422/843 kB | 818/855 kB
+Progress (5): 360/459 kB | 0.7/1.0 MB | 0.3/1.6 MB | 422/843 kB | 818/855 kB
+Progress (5): 360/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 422/843 kB | 818/855 kB
+Progress (5): 360/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 438/843 kB | 818/855 kB
+Progress (5): 360/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 438/843 kB | 835/855 kB
+Progress (5): 377/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 438/843 kB | 835/855 kB
+Progress (5): 377/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 455/843 kB | 835/855 kB
+Progress (5): 377/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 459/843 kB | 835/855 kB
+Progress (5): 393/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 459/843 kB | 835/855 kB
+Progress (5): 393/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 459/843 kB | 851/855 kB
+Progress (5): 393/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 459/843 kB | 855 kB    
+Progress (5): 393/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 475/843 kB | 855 kB
+                                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar (855 kB at 163 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar
+Progress (4): 393/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 475/843 kB
+Progress (4): 410/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 475/843 kB
+Progress (4): 410/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 475/843 kB
+Progress (4): 410/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 475/843 kB
+Progress (4): 410/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 492/843 kB
+Progress (4): 410/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 492/843 kB
+Progress (4): 426/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 492/843 kB
+Progress (5): 426/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 492/843 kB | 7.7/237 kB
+Progress (5): 426/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 492/843 kB | 16/237 kB 
+Progress (5): 426/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 508/843 kB | 16/237 kB
+Progress (5): 442/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 508/843 kB | 16/237 kB
+Progress (5): 442/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 508/843 kB | 32/237 kB
+Progress (5): 442/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 508/843 kB | 32/237 kB
+Progress (5): 442/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 524/843 kB | 32/237 kB
+Progress (5): 459/459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 524/843 kB | 32/237 kB
+Progress (5): 459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 524/843 kB | 32/237 kB    
+Progress (5): 459 kB | 0.7/1.0 MB | 0.4/1.6 MB | 524/843 kB | 32/237 kB
+                                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.14.2/jackson-core-2.14.2.jar (459 kB at 80 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.2.4/spring-boot-loader-tools-3.2.4.jar
+Progress (4): 0.7/1.0 MB | 0.4/1.6 MB | 524/843 kB | 48/237 kB
+Progress (4): 0.7/1.0 MB | 0.4/1.6 MB | 524/843 kB | 48/237 kB
+Progress (4): 0.7/1.0 MB | 0.4/1.6 MB | 541/843 kB | 48/237 kB
+Progress (4): 0.7/1.0 MB | 0.4/1.6 MB | 557/843 kB | 48/237 kB
+Progress (4): 0.8/1.0 MB | 0.4/1.6 MB | 557/843 kB | 48/237 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 557/843 kB | 48/237 kB | 7.7/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 557/843 kB | 48/237 kB | 8.2/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 557/843 kB | 48/237 kB | 8.2/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 557/843 kB | 65/237 kB | 8.2/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 573/843 kB | 65/237 kB | 8.2/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 573/843 kB | 65/237 kB | 8.2/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 65/237 kB | 8.2/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 65/237 kB | 25/434 kB 
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 81/237 kB | 25/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 81/237 kB | 25/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 81/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 98/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 98/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 98/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 590/843 kB | 114/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 606/843 kB | 114/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 623/843 kB | 114/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 623/843 kB | 114/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 639/843 kB | 114/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 639/843 kB | 130/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 639/843 kB | 130/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 655/843 kB | 130/237 kB | 41/434 kB
+Progress (5): 0.8/1.0 MB | 0.4/1.6 MB | 655/843 kB | 147/237 kB | 41/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 655/843 kB | 147/237 kB | 41/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 672/843 kB | 147/237 kB | 41/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 672/843 kB | 147/237 kB | 57/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 672/843 kB | 147/237 kB | 74/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 672/843 kB | 147/237 kB | 90/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 672/843 kB | 163/237 kB | 90/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 672/843 kB | 163/237 kB | 90/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 688/843 kB | 163/237 kB | 90/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 705/843 kB | 163/237 kB | 90/434 kB
+Progress (5): 0.9/1.0 MB | 0.4/1.6 MB | 705/843 kB | 163/237 kB | 106/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 705/843 kB | 163/237 kB | 106/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 705/843 kB | 179/237 kB | 106/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 705/843 kB | 179/237 kB | 106/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 705/843 kB | 179/237 kB | 123/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 705/843 kB | 179/237 kB | 131/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 705/843 kB | 179/237 kB | 131/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 705/843 kB | 196/237 kB | 131/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 721/843 kB | 196/237 kB | 131/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 721/843 kB | 196/237 kB | 131/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 721/843 kB | 212/237 kB | 131/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 721/843 kB | 212/237 kB | 147/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 721/843 kB | 212/237 kB | 147/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 737/843 kB | 212/237 kB | 147/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 737/843 kB | 212/237 kB | 147/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 737/843 kB | 229/237 kB | 147/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 737/843 kB | 229/237 kB | 164/434 kB
+Progress (5): 0.9/1.0 MB | 0.5/1.6 MB | 737/843 kB | 237 kB | 164/434 kB    
+                                                                        
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar (237 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar
+Progress (4): 1.0/1.0 MB | 0.5/1.6 MB | 737/843 kB | 164/434 kB
+Progress (4): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 164/434 kB
+Progress (4): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 180/434 kB
+Progress (4): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 180/434 kB
+Progress (4): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 180/434 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 180/434 kB | 7.7/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 180/434 kB | 16/268 kB 
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 180/434 kB | 29/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 197/434 kB | 29/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 197/434 kB | 29/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 213/434 kB | 29/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 754/843 kB | 213/434 kB | 29/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 770/843 kB | 213/434 kB | 29/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 770/843 kB | 213/434 kB | 45/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 770/843 kB | 213/434 kB | 61/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 770/843 kB | 213/434 kB | 61/268 kB
+Progress (5): 1.0/1.0 MB | 0.5/1.6 MB | 770/843 kB | 229/434 kB | 61/268 kB
+Progress (5): 1.0 MB | 0.5/1.6 MB | 770/843 kB | 229/434 kB | 61/268 kB    
+                                                                       
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar (1.0 MB at 125 kB/s)
+Progress (4): 0.5/1.6 MB | 786/843 kB | 229/434 kB | 61/268 kB
+Progress (4): 0.5/1.6 MB | 786/843 kB | 229/434 kB | 78/268 kB
+Progress (4): 0.5/1.6 MB | 786/843 kB | 246/434 kB | 78/268 kB
+Progress (4): 0.5/1.6 MB | 786/843 kB | 246/434 kB | 94/268 kB
+Progress (4): 0.5/1.6 MB | 786/843 kB | 246/434 kB | 111/268 kB
+Progress (4): 0.5/1.6 MB | 803/843 kB | 246/434 kB | 111/268 kB
+Progress (4): 0.5/1.6 MB | 803/843 kB | 262/434 kB | 111/268 kB
+Progress (4): 0.5/1.6 MB | 803/843 kB | 262/434 kB | 127/268 kB
+Progress (4): 0.5/1.6 MB | 803/843 kB | 262/434 kB | 143/268 kB
+Progress (4): 0.5/1.6 MB | 803/843 kB | 262/434 kB | 143/268 kB
+Progress (4): 0.5/1.6 MB | 819/843 kB | 262/434 kB | 143/268 kB
+Progress (4): 0.5/1.6 MB | 836/843 kB | 262/434 kB | 143/268 kB
+Progress (4): 0.5/1.6 MB | 836/843 kB | 262/434 kB | 160/268 kB
+Progress (4): 0.5/1.6 MB | 836/843 kB | 279/434 kB | 160/268 kB
+Progress (4): 0.5/1.6 MB | 836/843 kB | 279/434 kB | 176/268 kB
+Progress (4): 0.5/1.6 MB | 843 kB | 279/434 kB | 176/268 kB    
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.2.3/httpclient5-5.2.3.jar (843 kB at 97 kB/s)
+Progress (3): 0.5/1.6 MB | 279/434 kB | 193/268 kB
+Progress (3): 0.5/1.6 MB | 279/434 kB | 209/268 kB
+Progress (3): 0.5/1.6 MB | 279/434 kB | 225/268 kB
+Progress (3): 0.5/1.6 MB | 295/434 kB | 225/268 kB
+Progress (3): 0.5/1.6 MB | 295/434 kB | 242/268 kB
+Progress (3): 0.5/1.6 MB | 295/434 kB | 258/268 kB
+Progress (3): 0.5/1.6 MB | 295/434 kB | 268 kB    
+Progress (3): 0.5/1.6 MB | 311/434 kB | 268 kB
+                                              
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar (268 kB at 29 kB/s)
+Progress (2): 0.5/1.6 MB | 328/434 kB
+Progress (2): 0.5/1.6 MB | 328/434 kB
+Progress (2): 0.5/1.6 MB | 344/434 kB
+Progress (2): 0.5/1.6 MB | 360/434 kB
+Progress (2): 0.5/1.6 MB | 377/434 kB
+Progress (2): 0.5/1.6 MB | 393/434 kB
+Progress (2): 0.5/1.6 MB | 410/434 kB
+Progress (2): 0.5/1.6 MB | 426/434 kB
+Progress (2): 0.5/1.6 MB | 426/434 kB
+Progress (2): 0.5/1.6 MB | 434 kB    
+                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.2.4/spring-boot-loader-tools-3.2.4.jar (434 kB at 43 kB/s)
+Progress (1): 0.5/1.6 MB
+Progress (1): 0.6/1.6 MB
+Progress (1): 0.6/1.6 MB
+Progress (1): 0.6/1.6 MB
+Progress (1): 0.6/1.6 MB
+Progress (1): 0.6/1.6 MB
+Progress (1): 0.6/1.6 MB
+Progress (1): 0.6/1.6 MB
+Progress (1): 0.7/1.6 MB
+Progress (1): 0.7/1.6 MB
+Progress (1): 0.7/1.6 MB
+Progress (1): 0.7/1.6 MB
+Progress (1): 0.7/1.6 MB
+Progress (1): 0.7/1.6 MB
+Progress (1): 0.8/1.6 MB
+Progress (1): 0.8/1.6 MB
+Progress (1): 0.8/1.6 MB
+Progress (1): 0.8/1.6 MB
+Progress (1): 0.8/1.6 MB
+Progress (1): 0.8/1.6 MB
+Progress (1): 0.9/1.6 MB
+Progress (1): 0.9/1.6 MB
+Progress (1): 0.9/1.6 MB
+Progress (1): 0.9/1.6 MB
+Progress (1): 0.9/1.6 MB
+Progress (1): 0.9/1.6 MB
+Progress (1): 1.0/1.6 MB
+Progress (1): 1.0/1.6 MB
+Progress (1): 1.0/1.6 MB
+Progress (1): 1.0/1.6 MB
+Progress (1): 1.0/1.6 MB
+Progress (1): 1.0/1.6 MB
+Progress (1): 1.1/1.6 MB
+Progress (1): 1.1/1.6 MB
+Progress (1): 1.1/1.6 MB
+Progress (1): 1.1/1.6 MB
+Progress (1): 1.1/1.6 MB
+Progress (1): 1.1/1.6 MB
+Progress (1): 1.2/1.6 MB
+Progress (1): 1.2/1.6 MB
+Progress (1): 1.2/1.6 MB
+Progress (1): 1.2/1.6 MB
+Progress (1): 1.2/1.6 MB
+Progress (1): 1.2/1.6 MB
+Progress (1): 1.2/1.6 MB
+Progress (1): 1.3/1.6 MB
+Progress (1): 1.3/1.6 MB
+Progress (1): 1.3/1.6 MB
+Progress (1): 1.3/1.6 MB
+Progress (1): 1.3/1.6 MB
+Progress (1): 1.3/1.6 MB
+Progress (1): 1.4/1.6 MB
+Progress (1): 1.4/1.6 MB
+Progress (1): 1.4/1.6 MB
+Progress (1): 1.4/1.6 MB
+Progress (1): 1.4/1.6 MB
+Progress (1): 1.4/1.6 MB
+Progress (1): 1.5/1.6 MB
+Progress (1): 1.5/1.6 MB
+Progress (1): 1.5/1.6 MB
+Progress (1): 1.5/1.6 MB
+Progress (1): 1.5/1.6 MB
+Progress (1): 1.5/1.6 MB
+Progress (1): 1.6/1.6 MB
+Progress (1): 1.6/1.6 MB
+Progress (1): 1.6/1.6 MB
+Progress (1): 1.6/1.6 MB
+Progress (1): 1.6 MB    
+                    
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.14.2/jackson-databind-2.14.2.jar (1.6 MB at 69 kB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2026-03-18T15:46:53.249+05:30  INFO 31144 --- [smart-interview-platform] [           main] c.i.p.SmartInterviewPlatformApplication  : Starting SmartInterviewPlatformApplication using Java 21.0.10 with PID 31144 (C:\dddd\Smart Interview Preparation Platform\Smart-Interview-Preparation-Platform\target\classes started by Manish K in C:\dddd\Smart Interview Preparation Platform\Smart-Interview-Preparation-Platform)
+2026-03-18T15:46:53.253+05:30  INFO 31144 --- [smart-interview-platform] [           main] c.i.p.SmartInterviewPlatformApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-03-18T15:46:55.424+05:30  INFO 31144 --- [smart-interview-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-18T15:46:55.587+05:30  INFO 31144 --- [smart-interview-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 3 JPA repository interfaces.
+2026-03-18T15:46:56.988+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-18T15:46:57.027+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-18T15:46:57.027+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-03-18T15:46:57.216+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-18T15:46:57.220+05:30  INFO 31144 --- [smart-interview-platform] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3832 ms
+2026-03-18T15:46:57.484+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-18T15:46:57.607+05:30  INFO 31144 --- [smart-interview-platform] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2026-03-18T15:46:57.679+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-18T15:46:58.348+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-18T15:46:58.411+05:30  INFO 31144 --- [smart-interview-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-18T15:46:59.583+05:30 ERROR 31144 --- [smart-interview-platform] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1685) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1434) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:105) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:499) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:218) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618) ~[spring-context-6.1.5.jar:6.1.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
+	at com.interview.platform.SmartInterviewPlatformApplication.main(SmartInterviewPlatformApplication.java:9) ~[classes/:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar:42.6.2]
+	... 144 common frames omitted
+
+2026-03-18T15:46:59.603+05:30  WARN 31144 --- [smart-interview-platform] [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1685) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1434) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:105) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:499) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:218) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618) ~[spring-context-6.1.5.jar:6.1.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
+	at com.interview.platform.SmartInterviewPlatformApplication.main(SmartInterviewPlatformApplication.java:9) ~[classes/:na]
+
+2026-03-18T15:46:59.658+05:30  WARN 31144 --- [smart-interview-platform] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-18T15:47:01.627+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-18T15:47:01.660+05:30  INFO 31144 --- [smart-interview-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-18T15:47:02.677+05:30 ERROR 31144 --- [smart-interview-platform] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:98) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1685) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1434) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:105) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:499) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:218) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618) ~[spring-context-6.1.5.jar:6.1.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
+	at com.interview.platform.SmartInterviewPlatformApplication.main(SmartInterviewPlatformApplication.java:9) ~[classes/:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar:42.6.2]
+	... 148 common frames omitted
+
+2026-03-18T15:47:02.685+05:30  WARN 31144 --- [smart-interview-platform] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+2026-03-18T15:47:02.685+05:30 ERROR 31144 --- [smart-interview-platform] [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+2026-03-18T15:47:02.699+05:30 ERROR 31144 --- [smart-interview-platform] [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+2026-03-18T15:47:02.701+05:30 ERROR 31144 --- [smart-interview-platform] [           main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\dddd\Smart Interview Preparation Platform\Smart-Interview-Preparation-Platform\target\classes\com\interview\platform\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'applicationConfig' defined in file [C:\dddd\Smart Interview Preparation Platform\Smart-Interview-Preparation-Platform\target\classes\com\interview\platform\config\ApplicationConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in com.interview.platform.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+2026-03-18T15:47:02.754+05:30  INFO 31144 --- [smart-interview-platform] [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-03-18T15:47:02.763+05:30  WARN 31144 --- [smart-interview-platform] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+2026-03-18T15:47:02.777+05:30  INFO 31144 --- [smart-interview-platform] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-18T15:47:02.808+05:30 ERROR 31144 --- [smart-interview-platform] [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618) ~[spring-context-6.1.5.jar:6.1.5]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.4.jar:3.2.4]
+	at com.interview.platform.SmartInterviewPlatformApplication.main(SmartInterviewPlatformApplication.java:9) ~[classes/:na]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:145) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:105) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:499) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:218) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:188) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-3.2.4.jar:3.2.4]
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'jwtAuthenticationFilter' defined in file [C:\dddd\Smart Interview Preparation Platform\Smart-Interview-Preparation-Platform\target\classes\com\interview\platform\security\JwtAuthenticationFilter.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'applicationConfig' defined in file [C:\dddd\Smart Interview Preparation Platform\Smart-Interview-Preparation-Platform\target\classes\com\interview\platform\config\ApplicationConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in com.interview.platform.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:210) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:173) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:168) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:153) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:266) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:240) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.2.4.jar:3.2.4]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:437) ~[tomcat-embed-core-10.1.19.jar:10.1.19]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126) ~[spring-boot-3.2.4.jar:3.2.4]
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'applicationConfig' defined in file [C:\dddd\Smart Interview Preparation Platform\Smart-Interview-Preparation-Platform\target\classes\com\interview\platform\config\ApplicationConfig.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userRepository' defined in com.interview.platform.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:237) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1355) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1192) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar:6.1.5]
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.interview.platform.repository.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot resolve reference to bean 'jpaSharedEM_entityManagerFactory' while setting bean property 'entityManager'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1685) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1434) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.5.jar:6.1.5]
+	... 77 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaSharedEM_entityManagerFactory': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:682) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1335) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1165) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.5.jar:6.1.5]
+	... 91 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.1.5.jar:6.1.5]
+	... 103 common frames omitted
+Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.5.jar:6.1.5]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.5.jar:6.1.5]
+	... 110 common frames omitted
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:185) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:98) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:286) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:145) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:142) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:315) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:450) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1507) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.5.jar:6.1.5]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.5.jar:6.1.5]
+	... 114 common frames omitted
+Caused by: org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:342) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.2.jar:42.6.2]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	... 134 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:690) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.2.jar:42.6.2]
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.2.jar:42.6.2]
+	... 148 common frames omitted
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  49.919 s
+[INFO] Finished at: 2026-03-18T15:47:02+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.2.4:run (default-cli) on project Smart-Interview-Preparation-Platform: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

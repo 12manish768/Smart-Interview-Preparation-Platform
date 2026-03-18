@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: smart-interview-platform
+server:
+  port: 8080
+  datasource:
+    # Default to H2 for immediate testability
+    url: jdbc:h2:file:./interview_db;DB_CLOSE_DELAY=-1
+    username: sa
+    password: password
+    driver-class-name: org.h2.Driver
+    # Uncomment for PostgreSQL:
+    # url: jdbc:postgresql://localhost:5432/interview_db
+    # username: postgres
+    # password: password
+    # driver-class-name: org.postgresql.Driver
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        # Default dialect for H2 (Hibernate usually detects this, but explicit is fine)
+        # dialect: org.hibernate.dialect.H2Dialect
+
+jwt:
+  secret: c21hcnQtaW50ZXJ2aWV3LXBsYXRmb3JtLXNlY3JldC1rZXktZm9yLWRldmVsb3BtZW50
+  expiration: 86400000 # 24 hours
+
+gemini:
+  apiKey: AIzaSyDZgCwAD7CMohg4M_zEEPaj885n4KeKQhU
+  baseUrl: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent

@@ -1,0 +1,244 @@
+import React, { useState, useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import api from '../api/axios';
+import Navbar from '../components/Navbar';
+import { Award, Target, Zap, ShieldAlert, ChevronRight, TrendingUp, BookOpen, Clock, Download, FileText } from 'lucide-react';
+import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer } from 'recharts';
+import { useAuth } from '../context/AuthContext';
+import Certificate from '../components/Certificate';
+import html2canvas from 'html2canvas';
+import { jsPDF } from 'jspdf';
+
+const EvaluationPage = () => {
+    const { sessionId } = useParams();
+    const navigate = useNavigate();
+    const { user } = useAuth();
+    const [session, setSession] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [downloading, setDownloading] = useState(false);
+    const certificateRef = React.useRef(null);
+
+    useEffect(() => {
+        const fetchEvaluation = async () => {
+            try {
+                const response = await api.get(`/interviews/${sessionId}`);
+                setSession(response.data);
+            } catch (err) {
+                console.error('Failed to fetch evaluation', err);
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchEvaluation();
+    }, [sessionId]);
+
+    const handleDownloadCertificate = async () => {
+        if (!certificateRef.current) return;
+        setDownloading(true);
+        try {
+            const canvas = await html2canvas(certificateRef.current, {
+                scale: 2,
+                useCORS: true,
+                backgroundColor: '#ffffff'
+            });
+            const imgData = canvas.toDataURL('image/png');
+            const pdf = new jsPDF({
+                orientation: 'landscape',
+                unit: 'px',
+                format: [canvas.width, canvas.height]
+            });
+            pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+            pdf.save(`Certificate_${topic.replace(/\s+/g, '_')}.pdf`);
+        } catch (err) {
+            console.error('Certificate generation failed', err);
+        } finally {
+            setDownloading(false);
+        }
+    };
+
+    if (loading) {
+        return (
+            <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+                <Navbar />
+                <div className="flex flex-col items-center justify-center py-24">
+                    <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-indigo-600 dark:border-indigo-400"></div>
+                    <p className="mt-8 text-xl font-medium text-gray-600 dark:text-gray-300">Generating your performance analysis...</p>
+                </div>
+            </div>
+        );
+    }
+
+    // Default fallbacks in case data is missing
+    const { evaluationReport, topic = "Mock Interview", startTime, difficulty = "Medium" } = session || {};
+    const overallScore = evaluationReport?.overallScore || 0;
+
+    // Mock data for charts
+    const radarData = [
+        { subject: 'Communication', A: 85, fullMark: 100 },
+        { subject: 'Technical Depth', A: overallScore, fullMark: 100 },
+        { subject: 'Problem Solving', A: 75, fullMark: 100 },
+        { subject: 'Speed', A: 90, fullMark: 100 },
+        { subject: 'Clarity', A: 80, fullMark: 100 },
+    ];
+
+    return (
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-900 pb-12 transition-colors duration-300">
+            <Navbar />
+
+            <header className="bg-indigo-600 dark:bg-indigo-900 text-white py-12 shadow-lg transition-colors duration-300">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="flex flex-col md:flex-row md:items-center md:justify-between text-center md:text-left">
+                        <div>
+                            <div className="flex justify-center md:justify-start items-center space-x-2 mb-4">
+                                <Award className="h-6 w-6 text-indigo-200" />
+                                <span className="text-indigo-100 font-bold tracking-widest uppercase text-sm">Interview Report</span>
+                            </div>
+                            <h1 className="text-4xl font-extrabold mb-2 text-white">{topic}</h1>
+                            <div className="flex flex-wrap justify-center md:justify-start gap-4 text-indigo-100 text-sm opacity-90">
+                              <span className="flex items-center gap-1">
+                                  <Clock className="h-4 w-4" />
+                                  Completed on {startTime ? new Date(startTime).toLocaleDateString() : 'Today'}
+                              </span>
+                                <span className="flex items-center gap-1">
+                                  <Target className="h-4 w-4" />
+                                  Evaluation generated by Gemini AI
+                              </span>
+                            </div>
+                        </div>
+                        <div className="mt-8 md:mt-0 flex flex-col items-center">
+                            <div className="relative w-32 h-32 flex items-center justify-center">
+                                <svg className="w-full h-full transform -rotate-90">
+                                    <circle cx="64" cy="64" r="58" stroke="currentColor" strokeWidth="8" fill="transparent" className="text-indigo-500 dark:text-indigo-400 opacity-30" />
+                                    <circle cx="64" cy="64" r="58" stroke="currentColor" strokeWidth="8" fill="transparent" strokeDasharray={364} strokeDashoffset={364 - (364 * overallScore) / 100} className="text-white transition-all duration-1000 ease-out" />
+                                </svg>
+                                <span className="absolute text-4xl font-black text-white">{overallScore}%</span>
+                            </div>
+                            <span className="mt-2 font-bold text-indigo-100 uppercase tracking-tighter">Overall Score</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main className="max-w-7xl mx-auto -mt-8 px-4 sm:px-6 lg:px-8">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    {/* Left Column: Metrics & Charts */}
+                    <div className="lg:col-span-1 space-y-8">
+                        <section className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 overflow-hidden transition-colors duration-300">
+                            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-6 flex items-center gap-2">
+                                <TrendingUp className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
+                                Proficiency Radar
+                            </h3>
+                            <div className="h-64 w-full">
+                                <ResponsiveContainer width="100%" height="100%">
+                                    <RadarChart cx="50%" cy="50%" outerRadius="80%" data={radarData}>
+                                        <PolarGrid stroke="#e5e7eb" />
+                                        <PolarAngleAxis dataKey="subject" tick={{ fill: '#6b7280', fontSize: 10 }} />
+                                        <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
+                                        <Radar name="Performance" dataKey="A" stroke="#4f46e5" fill="#4f46e5" fillOpacity={0.5} />
+                                    </RadarChart>
+                                </ResponsiveContainer>
+                            </div>
+                        </section>
+
+                        <section className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 transition-colors duration-300">
+                            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                                <BookOpen className="h-5 w-5 text-indigo-600 dark:text-indigo-400" />
+                                Key Strengths
+                            </h3>
+                            <div className="bg-green-50 dark:bg-green-900/30 text-green-800 dark:text-green-300 p-4 rounded-xl flex items-start space-x-3 mb-4 transition-colors">
+                                <Zap className="h-5 w-5 mt-1 flex-shrink-0" />
+                                <p className="text-sm font-medium italic">"{evaluationReport?.strengths || "Consistently communicating ideas clearly."}"</p>
+                            </div>
+                        </section>
+
+                        <section className="bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 transition-colors duration-300">
+                            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+                                <ShieldAlert className="h-5 w-5 text-red-600 dark:text-red-400" />
+                                Critical Weaknesses
+                            </h3>
+                            <div className="bg-red-50 dark:bg-red-900/30 text-red-800 dark:text-red-300 p-4 rounded-xl flex items-start space-x-3 transition-colors">
+                                <ShieldAlert className="h-5 w-5 mt-1 flex-shrink-0" />
+                                <p className="text-sm font-medium italic">"{evaluationReport?.weaknesses || "Needs to provide more concrete examples."}"</p>
+                            </div>
+                        </section>
+                    </div>
+
+                    {/* Right Column: Detailed Feedback & Tips */}
+                    <div className="lg:col-span-2 space-y-8">
+                        {/* THE TRUNCATED TAG IS FIXED HERE */}
+                        <section className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-xl border border-gray-100 dark:border-gray-700 transition-colors duration-300">
+                            <h3 className="text-2xl font-black text-gray-900 dark:text-white mb-8 border-b border-gray-50 dark:border-gray-700 pb-4">
+                                Actionable Roadmap
+                            </h3>
+
+                            <div className="space-y-6">
+                                {/* Safe split in case actionableTips is undefined */}
+                                {(evaluationReport?.actionableTips || "1. Keep practicing\n2. Review system design").split('\n').filter(t => t.trim()).map((tip, idx) => (
+                                    <div key={idx} className="flex group">
+                                        <div className="mr-6 flex flex-col items-center">
+                                            <div className="w-10 h-10 bg-indigo-100 dark:bg-indigo-900/50 text-indigo-600 dark:text-indigo-400 rounded-full flex items-center justify-center font-black group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                                                {idx + 1}
+                                            </div>
+                                            {idx < 1 && <div className="w-0.5 h-full bg-indigo-50 dark:bg-indigo-900/30 mt-2"></div>}
+                                        </div>
+                                        <div className="flex-1 pb-8">
+                                            <h4 className="text-lg font-bold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">Action Item {idx + 1}</h4>
+                                            <p className="mt-2 text-gray-600 dark:text-gray-400 leading-relaxed font-medium">
+                                                {tip.replace(/^\d+\.\s*/, '')}
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+
+                            <div className="bg-blue-50 dark:bg-blue-900/30 p-8 rounded-2xl border border-blue-100 dark:border-blue-800 mt-12 transition-colors">
+                                <h4 className="flex items-center gap-2 text-blue-900 dark:text-blue-300 font-black mb-3 text-lg">
+                                    <ChevronRight className="h-5 w-5" />
+                                    AI Interviewer's Note
+                                </h4>
+                                <p className="text-blue-800 dark:text-blue-200 text-sm leading-relaxed italic opacity-90">
+                                    "Your performance in the {topic} session was commendable. While your technical grasp of core principles is solid, focusing on system-level integration and edge-case handling will elevate your profile to senior-level standards. Keep practicing!"
+                                </p>
+                            </div>
+
+                            <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+                                <button
+                                    onClick={handleDownloadCertificate}
+                                    disabled={downloading}
+                                    className="w-full sm:w-auto px-8 py-4 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-all shadow-xl hover:scale-105 active:scale-95 flex items-center justify-center gap-2 disabled:opacity-50"
+                                >
+                                    {downloading ? (
+                                        <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white"></div>
+                                    ) : (
+                                        <Download className="h-5 w-5" />
+                                    )}
+                                    {downloading ? 'Preparing...' : 'Download Certificate'}
+                                </button>
+                                <button
+                                    onClick={() => navigate('/dashboard')}
+                                    className="w-full sm:w-auto px-8 py-4 bg-gray-900 dark:bg-gray-700 text-white font-bold rounded-xl hover:bg-gray-800 dark:hover:bg-gray-600 transition-all shadow-xl hover:scale-105 active:scale-95"
+                                >
+                                    Return to Profile
+                                </button>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                
+                {/* Hidden Certificate for Generator */}
+                <div style={{ position: 'absolute', left: '-9999px', top: '-9999px' }}>
+                    <Certificate 
+                        ref={certificateRef}
+                        userName={user?.username}
+                        topic={topic}
+                        difficulty={difficulty}
+                        score={overallScore}
+                        date={startTime ? new Date(startTime).toLocaleDateString() : 'Today'}
+                    />
+                </div>
+            </main>
+        </div>
+    );
+};
+
+export default EvaluationPage;

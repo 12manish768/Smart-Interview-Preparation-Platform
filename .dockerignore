@@ -1,0 +1,22 @@
+# Ignore build artifacts and node_modules
+# Backend
+target/
+.idea/
+.mvn/
+mvnw
+mvnw.cmd
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# OS files
+.DS_Store
+Thumbs.db
