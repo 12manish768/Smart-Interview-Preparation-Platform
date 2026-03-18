@@ -28,9 +28,9 @@ server:
         # dialect: org.hibernate.dialect.H2Dialect
 
 jwt:
-  secret: c21hcnQtaW50ZXJ2aWV3LXBsYXRmb3JtLXNlY3JldC1rZXktZm9yLWRldmVsb3BtZW50
+  secret: ${JWT_SECRET}
   expiration: 86400000 # 24 hours
 
 gemini:
-  apiKey: AIzaSyDZgCwAD7CMohg4M_zEEPaj885n4KeKQhU
+  apiKey: ${GEMINI_API_KEY}
   baseUrl: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent
