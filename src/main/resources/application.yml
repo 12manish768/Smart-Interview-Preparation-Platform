@@ -1,6 +1,9 @@
 spring:
   application:
     name: smart-interview-platform
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
 server:
   port: 8080
   datasource:
